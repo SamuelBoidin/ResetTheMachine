@@ -1,0 +1,130 @@
+/*Title animation*/
+/*Top animation*/
+.titleHigh {
+    animation: 1s linear forwards slideHigh;
+    -moz-animation: 1s linear forwards slideHigh;
+    -webkit-animation: 1s linear forwards slideHigh;
+    animation-delay: 0.4s; 
+}
+@keyframes slideHigh {
+    from {
+        opacity:0;
+        transform: translateX(-25px);
+    }
+    to {
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+@-moz-keyframes slideHigh {
+    from {
+        opacity:0;
+        transform: translateX(-25px);
+    }
+    to {
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+@-webkit-keyframes slideHigh {
+    from {
+        opacity:0;
+        transform: translateX(-25px);
+    }
+    to {
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+/*Middle animation*/
+.titleMiddle {
+    animation: 1s linear forwards slideMiddle;
+    -moz-animation: 1s linear forwards slideMiddle;
+    -webkit-animation: 1s linear forwards slideMiddle;
+    animation-delay: 0.8s;
+}
+@keyframes slideMiddle {
+    from {
+        opacity:0;
+        transform: translateX(25px);
+    }
+    to {
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+@-moz-keyframes slideMiddle {
+    from {
+        opacity:0;
+        transform: translateX(25px);
+    }
+    to {
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+@-webkit-keyframes slideMiddle {
+    from {
+        opacity:0;
+        transform: translateX(25px);
+    }
+    to {
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+/*low animation*/
+.titleLow {
+    animation: 1s linear forwards slideLow;
+    -moz-animation: 1s linear forwards slideLow;
+    -webkit-animation: 1s linear forwards slideLow;
+    animation-delay: 1.2s;
+}
+@keyframes slideLow {
+    from {
+        opacity:0;
+        transform: translateX(-25px);
+    }
+    to {
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+@-moz-keyframes slideLow {
+    from {
+        opacity:0;
+        transform: translateX(-25px);
+    }
+    to {
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+@-webkit-keyframes slideLow {
+    from {
+        opacity:0;
+        transform: translateX(-25px);
+    }
+    to {
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+/*Title hover animation*/
+main {
+    #zoneHero {
+        h1 {
+            .titleHigh:hover {
+                color: black;
+                transform: translateX(25px);
+            }
+            .titleMiddle:hover {
+                color: rebeccapurple;
+            }
+            .titleLow:hover {
+
+            }
+        }
+    }
+}
+/*Item text animation*/

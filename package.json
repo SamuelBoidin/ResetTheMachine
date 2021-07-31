@@ -1,0 +1,19 @@
+{
+  "name": "resetthemachine",
+  "version": "1.0.0",
+  "description": "ResetTheMachine",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelBoidin/ResetTheMachine.git"
+  },
+  "author": "Boidin Samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelBoidin/ResetTheMachine/issues"
+  },
+  "homepage": "https://github.com/SamuelBoidin/ResetTheMachine#readme"
+}

@@ -1,0 +1,197 @@
+/*Title animation*/
+/*Top animation*/
+.titleHigh {
+  animation: 1s linear forwards slideHigh;
+  -moz-animation: 1s linear forwards slideHigh;
+  -webkit-animation: 1s linear forwards slideHigh;
+  animation-delay: 0.4s;
+}
+
+@keyframes slideHigh {
+  from {
+    opacity: 0;
+    transform: translateX(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@-moz-keyframes slideHigh {
+  from {
+    opacity: 0;
+    transform: translateX(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@-webkit-keyframes slideHigh {
+  from {
+    opacity: 0;
+    transform: translateX(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+/*Middle animation*/
+.titleMiddle {
+  animation: 1s linear forwards slideMiddle;
+  -moz-animation: 1s linear forwards slideMiddle;
+  -webkit-animation: 1s linear forwards slideMiddle;
+  animation-delay: 0.8s;
+}
+
+@keyframes slideMiddle {
+  from {
+    opacity: 0;
+    transform: translateX(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@-moz-keyframes slideMiddle {
+  from {
+    opacity: 0;
+    transform: translateX(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@-webkit-keyframes slideMiddle {
+  from {
+    opacity: 0;
+    transform: translateX(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+/*low animation*/
+.titleLow {
+  animation: 1s linear forwards slideLow;
+  -moz-animation: 1s linear forwards slideLow;
+  -webkit-animation: 1s linear forwards slideLow;
+  animation-delay: 1.2s;
+}
+
+@keyframes slideLow {
+  from {
+    opacity: 0;
+    transform: translateX(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@-moz-keyframes slideLow {
+  from {
+    opacity: 0;
+    transform: translateX(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@-webkit-keyframes slideLow {
+  from {
+    opacity: 0;
+    transform: translateX(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+/*Title hover animation*/
+main #zoneHero h1 .titleHigh:hover {
+  color: black;
+  transform: translateX(25px);
+}
+main #zoneHero h1 .titleMiddle:hover {
+  color: rebeccapurple;
+}
+/*Item text animation*/
+body {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: #dd1173;
+  background: linear-gradient(135deg, #dd1173 0%, #350e47 100%);
+  font-family: "Raleway", sans-serif, serif;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header nav ul li {
+  margin-left: 50px;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+main #zoneHero {
+  height: 100vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main #zoneHero h1 {
+  font-size: 7em;
+  text-align: center;
+}
+main #zoneHero h1 span {
+  opacity: 0;
+  display: inline-block;
+  -webkit-transition: transform 0.3s linear;
+  -moz-transition: transform 0.3s linear;
+  transition: transform 0.3s linear;
+}
+main #presentation {
+  height: 100vh;
+  background-color: #1b1b1b;
+}
+main #experience {
+  height: 100vh;
+  background-color: white;
+}
+main #projects {
+  height: 100vh;
+  background-color: white;
+}
+main #Contact {
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
